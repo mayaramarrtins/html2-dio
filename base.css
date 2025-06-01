@@ -1,0 +1,417 @@
+@import url(https://db.onlinewebfonts.com/c/552a676bb549767452030a3022893604?family=Lean+O+FY+W01+Bold);
+
+html, body {
+    margin: 0;
+    font-family:'Inter', 'Lean O FY W01 Negrito', sans-serif;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color:#ffffff;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+.menu {
+    border-radius: 0px;
+    width: 297px;
+    background-color: #1498d5;
+    padding: 10px 20px 0px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+#logo-menu { 
+     width: 200px;
+     margin-left: 10px;
+}
+
+ul, a { 
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -20px;
+    color: white;
+}
+
+a:hover {
+    color: #143a4b;
+}
+
+li { 
+    padding-top: 7px;
+}
+
+
+.login-area {
+    margin-top: 30px;
+    text-align: left;
+    padding: 0 5px;
+}
+
+#login {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+#dados, #senha {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#entrar-na-conta {
+    width: 100%;
+    padding: 8px;
+    background-color: #0ab3049c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#entrar-na-conta:hover {
+    background-color: #0ab304;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #1498d523;
+    flex-wrap: wrap;
+}
+
+.logo-header {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#logo-cabecalho {
+    width: 200px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.busca-header {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+#pesquisa {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+}
+
+.botao-header {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#botao-de-agendamento {
+    background-color: #1498d5;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: auto;
+    max-width: 300px;
+}
+
+#botao-de-agendamento:hover {
+    background-color: #0baae9c7;
+}
+
+.content {
+    background-color: white;
+    min-height: 579px;
+    padding: 20px;
+}
+
+.banner-com-imagem {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1498d5;
+  color: white;
+  border-radius: 0 0 24px 24px;
+  
+}
+
+.banner-texto {
+  flex: 1;
+  padding: 60px 40px;
+}
+
+.banner-imagem {
+  flex: 1;
+  min-width: 300px;
+  max-height: 400px;
+}
+
+.banner-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cta-botao {
+  background-color: #ffffff;
+  color: black;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.banner-texto a.cta-botao {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.cta-botao:hover {
+  background-color: #e4f3fbd5;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 20px;
+  color: #1498d5;
+  margin-bottom: 25px;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+  font-size: 18px;
+  color: #333333;
+}
+
+
+.footer {
+    background-color: #1498d596;
+    color: white;
+    text-align: center;
+    padding: 30px 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+}
+
+.footer-conteudo {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+#nome-da-clinica {
+    font-family:'Lean O FY W01 Negrito';
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#endereco-da-clinica, #contatos {
+    font-size: 14px;
+    margin: 2px 0;
+}
+
+.footer-direitos {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+    padding-top: 10px;
+}
+
+#direitos {
+    font-size: 12px;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.table-container {
+    margin-top: 30px;
+    margin-bottom: 30px; /
+}
+
+.services-table, .prices-table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 15px; 
+    background-color: #f9f9f9; 
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); 
+}
+
+.services-table th, .prices-table th {
+    background-color: #1498d5;
+    color: white; 
+    padding: 10px; 
+    text-align: left; 
+    font-weight: bold; 
+}
+
+.services-table td, .prices-table td {
+    padding: 8px 10px; 
+    border-bottom: 1px solid #ddd; 
+    text-align: left; 
+    color: #333; 
+}
+
+.services-table tbody tr:nth-child(even), .prices-table tbody tr:nth-child(even) {
+    background-color: #eef7fc; 
+}
+
+.services-table tbody tr:hover, .prices-table tbody tr:hover {
+    background-color: #dbeaf5; 
+}
+
+.table-container h3 {
+    font-size: 18px; 
+    color: #1498d5;
+    margin-bottom: 10px; 
+    text-align: center; 
+}
+
+.price-note {
+    font-size: 13px;
+    color: #666; 
+    margin-top: 15px;
+    text-align: center; 
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px; 
+}
+
+.contact-info p {
+    margin: 8px 0; 
+    font-size: 1.15em; 
+    color: #333;
+}
+
+.contact-info strong {
+    color: #1498d5; 
+}
+
+.map-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto; 
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #ddd; 
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 450px; 
+    border: 0;
+    border-radius: 12px;
+}
+
+.contact-form {
+    max-width: 700px; 
+    margin: 0 auto;
+    padding: 40px; 
+    background-color: #1498d596;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px; 
+    font-weight: bold;
+    color: #555;
+    font-size: 1.05em; 
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: calc(100% - 24px); 
+    padding: 12px; 
+    margin-bottom: 25px; 
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1em;
+    box-sizing: border-box; 
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 150px; 
+}
+
+.contact-form .form-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    margin-top: 20px;
+}
+
+.contact-form button {
+    background-color: #1498d5;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0baae9c7;
+    transform: translateY(-2px); 
+}
+
+.contact-form button[type="reset"] {
+    background-color: #6c757d; 
+}
+
+.contact-form button[type="reset"]:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+
+}
